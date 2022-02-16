@@ -148,6 +148,7 @@ p.defineParrafo {
 
 /* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+
 /* Productos */
 #Productos {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #064663), color-stop(20%, white));
