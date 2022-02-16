@@ -1,0 +1,22 @@
+/* pitch elevator */
+/* A partir de aca encabezado */
+.tituloPrincipal{height: 380px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;}
+
+h1{
+    color:#064663;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.animacion{display: inline-block;
+    margin: 0 0.5rem;
+    animation: backInLeft; 
+    animation-duration: 2s; 
+}
+
+h2{ Color: #064663;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;}

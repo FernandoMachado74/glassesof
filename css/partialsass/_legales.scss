@@ -1,0 +1,54 @@
+/* Sepecs textos legales generalidades */
+
+$color1: #04293A;
+$color2: #ECB365;
+$color3: rgb(236, 235, 235);
+$color4: gray;
+
+article.cuerpoLegales {
+    padding-top: 10px;
+    margin: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+@mixin sizes($width, $height, $bcolor){
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
+
+article.cuerpoLegales {
+    @include sizes(100%,auto, $color3)
+}
+
+ h2.tituloUp{
+    height: 60px;
+}
+
+$coloresFont: (
+    c1:#04293A,
+    c2:#ECB365,
+    c3:gray,
+    c4:#ECB365,
+    c5:#04293A,
+);
+
+@each $font in coloresFont {
+    .color--#{$font} {
+        font-family: 'Ubuntu', sans-serif;
+        color: $font;
+        font-size: 20px;
+    }
+    
+}
+
+    
+p{font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+        
+.menuPie{color: white;}
+
+    /* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/

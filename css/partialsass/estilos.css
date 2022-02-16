@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+/* font-family: 'Ubuntu', sans-serif; */
+/* Especificaciones generales */
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/* A partir de aca encabezado */
+.container {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #041C32), color-stop(80%, #064663));
+  background-image: linear-gradient(0deg, #041C32 20%, #064663 80%);
+}
+
+nav {
+  color: transparent;
+  cursor: default;
+  font-family: 'Ubuntu', sans-serif;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 1px;
+}
+
+ul li:hover ul {
+  display: block;
+  color: white;
+}
+
+li a:hover {
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #064663;
+}
+
+/* pitch elevator */
+/* A partir de aca encabezado */
+.tituloPrincipal {
+  height: 380px;
+  width: 100%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #064663;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.animacion {
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: backInLeft;
+          animation: backInLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+h2 {
+  Color: #064663;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+/* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* definiciones de patologías */
+#Definiciones {
+  background-color: #f3ecec;
+  height: auto;
+  width: 100%;
+}
+
+#Definiciones H2 {
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.define {
+  color: cornflowerblue;
+}
+
+.definePatologias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.articuloTexto {
+  width: 33%;
+  height: 400px;
+}
+
+h3.defineTitulos {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: darkslateblue;
+  height: 10px;
+  width: 50%;
+}
+
+p.defineParrafo {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  color: grey;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.imagPatologia {
+  margin: 10px;
+  padding: 5px;
+  height: auto;
+  background-color: white;
+  width: 100%;
+  border: solid 1px gray;
+}
+
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* Productos */
+#Productos {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #064663), color-stop(20%, white));
+  background-image: linear-gradient(#064663 80%, white 20%);
+  height: 100vh;
+  width: 100%;
+}
+
+.tituloProd {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2px 2px black;
+          box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.container .imgProd {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* MISION, VISION, OBJETIVOS */
+article.parrafoNosotros {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+article.parrafoNosotros {
+  width: 30%;
+  height: auto;
+  background-color: #dfdede;
+}
+
+#Nosotros {
+  margin: 20px;
+}
+
+h3.misionTitular {
+  color: #ECB365;
+}
+
+p.misionParrafo {
+  color: #04293A;
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+}
+
+#Nosotros h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #ECB365;
+}
+
+#Nosotros p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: #04293A;
+  font-style: italic;
+  width: 100%;
+  margin: 5px;
+}
+
+.textoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+#Nosotros video {
+  border: darkblue;
+  border: 2px;
+  border-style: solid;
+  -webkit-box-shadow: darkblue;
+          box-shadow: darkblue;
+  margin: 15px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* contactos y otros*/
+.contenedor h3 {
+  margin: 20px;
+  color: black;
+}
+
+#Contactenos {
+  background-color: #064663;
+  width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  background-color: #041C32;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  background-color: #ECB365;
+  padding: 40px;
+}
+
+/* contactos y otros*/
+div h3 {
+  margin: 20px;
+}
+
+#Contactenos {
+  background-color: white;
+}
+
+/* LEGALES */
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #041C32), color-stop(80%, #064663));
+  background-image: linear-gradient(#041C32 20%, #064663 80%);
+  font: white;
+}
+
+footer ul li a {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.seguinosEn {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+}
+
+.seguinosEn.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Sepecs textos legales generalidades */
+article.cuerpoLegales {
+  padding-top: 10px;
+  margin: 5px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+article.cuerpoLegales {
+  width: 100%;
+  height: auto;
+  background-color: #ecebeb;
+}
+
+h2.tituloUp {
+  height: 60px;
+}
+
+.color--coloresFont {
+  font-family: 'Ubuntu', sans-serif;
+  color: coloresFont;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+}
+
+.menuPie {
+  color: white;
+}
+
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #211b19;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #211b19;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #ff6300;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #ff6300;
+  background: #211b19;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 86px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 16px;
+  }
+  .notfound a {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

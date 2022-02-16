@@ -1,0 +1,61 @@
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* MISION, VISION, OBJETIVOS */
+
+
+$color1: #04293A;
+$color2: #ECB365;
+$color3: rgb(223, 222, 222);
+
+article.parrafoNosotros {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+@mixin sizes($width, $height, $bcolor){
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
+
+article.parrafoNosotros {
+    @include sizes(30%, auto, $color3)
+}
+
+#Nosotros{margin: 20px;}
+
+h3.misionTitular{color:$color2;}
+
+p.misionParrafo{color:$color1;
+                text-align: left;
+                font-style: italic;
+                font-size: 16px;
+}
+#Nosotros h3{font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color:$color2;}
+
+#Nosotros p{font-family: 'Ubuntu', sans-serif;
+        font-weight: normal;
+        text-align: left;
+        color: $color1;
+        font-style: italic;
+        width: 100%;
+        margin:5px;
+}    
+.textoNosotros {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+#Nosotros video{border: darkblue;
+                border: 2px;
+                border-style:solid;
+                box-shadow: darkblue;
+                margin: 15px;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                }
