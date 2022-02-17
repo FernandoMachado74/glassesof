@@ -1,4 +1,4 @@
-/* Sepecs textos legales generalidades */
+/* Specs textos legales generalidades */
 
 $color1: #04293A;
 $color2: #ECB365;
@@ -34,11 +34,9 @@ $coloresFont: (
     c5:#04293A,
 );
 
-@each $font in coloresFont {
+@each $font, $color in $coloresFont {
     .color--#{$font} {
-        font-family: 'Ubuntu', sans-serif;
-        color: $font;
-        font-size: 20px;
+    background-color: $color;
     }
     
 }

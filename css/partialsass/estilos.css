@@ -148,7 +148,6 @@ p.defineParrafo {
 
 /* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
-
 /* Productos */
 #Productos {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #064663), color-stop(20%, white));
@@ -355,7 +354,7 @@ footer ul li a {
           align-items: center;
 }
 
-/* Sepecs textos legales generalidades */
+/* Specs textos legales generalidades */
 article.cuerpoLegales {
   padding-top: 10px;
   margin: 5px;
@@ -373,10 +372,24 @@ h2.tituloUp {
   height: 60px;
 }
 
-.color--coloresFont {
-  font-family: 'Ubuntu', sans-serif;
-  color: coloresFont;
-  font-size: 20px;
+.color--c1 {
+  background-color: #04293A;
+}
+
+.color--c2 {
+  background-color: #ECB365;
+}
+
+.color--c3 {
+  background-color: gray;
+}
+
+.color--c4 {
+  background-color: #ECB365;
+}
+
+.color--c5 {
+  background-color: #04293A;
 }
 
 p {
