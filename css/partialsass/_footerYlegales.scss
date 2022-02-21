@@ -1,3 +1,31 @@
+/* contactos y otros*/
+
+div h3{margin:20px;}
+
+#Contactenos{
+    background-color: white;
+}
+
+/* LEGALES */
+footer{background-image: linear-gradient(#041C32 20%, #064663 80%);
+    font: white;}
+
+footer ul li a {color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;}
+
+.seguinosEn{color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    }
+.seguinosEn.a{
+    display: flex;
+    align-content:space-between;
+    align-items: center;
+}
+
 /* Specs textos legales generalidades */
 .tituloUp{
     color: lightgray;
@@ -8,7 +36,7 @@
 
 .subTituloLegales {
     color:#064663;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
 }
 
@@ -25,7 +53,5 @@ article.cuerpoLegales {
     margin-top: -30px;
 }
         
-.menuPie{color: white;}
-
     /* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/

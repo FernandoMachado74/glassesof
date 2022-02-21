@@ -438,7 +438,7 @@ footer ul li a {
 
 .subTituloLegales {
   color: #064663;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -454,10 +454,6 @@ article.cuerpoLegales {
   color: grey;
   font-weight: lighter;
   margin-top: -30px;
-}
-
-.menuPie {
-  color: white;
 }
 
 /* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
