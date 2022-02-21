@@ -11,41 +11,20 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 }
 
 /* A partir de aca encabezado */
-.container {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #041C32), color-stop(80%, #064663));
-  background-image: linear-gradient(0deg, #041C32 20%, #064663 80%);
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aqua;
 }
 
-nav {
-  color: transparent;
-  cursor: default;
-  font-family: 'Ubuntu', sans-serif;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  text-decoration: none;
+.navbar-brand {
+  margin: 5px;
 }
 
-ul li a {
+nav a.textoLogo {
   color: white;
-  text-decoration: none;
-  padding-left: 1px;
-}
-
-ul li:hover ul {
-  display: block;
-  color: white;
-}
-
-li a:hover {
-  color: white;
-}
-
-nav ul li a:hover {
-  background-color: #064663;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 30px;
 }
 
 /* pitch elevator */
@@ -286,8 +265,15 @@ p.misionParrafo {
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 /* contactos y otros*/
 .contenedor h3 {
-  margin: 20px;
-  color: black;
+  margin: 16px;
+  color: darkslategray;
+}
+
+.col.sm1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
 }
 
 #Contactenos {
@@ -311,6 +297,94 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
   margin: auto;
   background-color: #ECB365;
   padding: 40px;
+}
+
+/* body{background:#59ABE3;margin:0} */
+.form {
+  width: 340px;
+  height: auto;
+  background: #e6e6e6;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  position: relative;
+}
+
+h2.contact {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: none;
+  outline: none;
+  /*     resize:auto; */
+  border: 0;
+  font-family: 'Montserrat',sans-serif;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat',sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+div.col-sm1 {
+  content: 'Hi';
+  position: absolute;
+  /*     bottom:-15px;right:-20px; */
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  -webkit-box-shadow: 10px 10px 40px -14px #000;
+          box-shadow: 10px 10px 40px -14px #000;
+}
+
+span {
+  margin: 0 5px 0 15px;
 }
 
 /* contactos y otros*/
@@ -355,6 +429,19 @@ footer ul li a {
 }
 
 /* Specs textos legales generalidades */
+.tituloUp {
+  color: lightgray;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.subTituloLegales {
+  color: #064663;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 article.cuerpoLegales {
   padding-top: 10px;
   margin: 5px;
@@ -362,39 +449,11 @@ article.cuerpoLegales {
   padding-left: 20px;
 }
 
-article.cuerpoLegales {
-  width: 100%;
-  height: auto;
-  background-color: #ecebeb;
-}
-
-h2.tituloUp {
-  height: 60px;
-}
-
-.color--c1 {
-  background-color: #04293A;
-}
-
-.color--c2 {
-  background-color: #ECB365;
-}
-
-.color--c3 {
-  background-color: gray;
-}
-
-.color--c4 {
-  background-color: #ECB365;
-}
-
-.color--c5 {
-  background-color: #04293A;
-}
-
-p {
-  font-family: 'Ubuntu', sans-serif;
+.parrafoLegales {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: grey;
+  font-weight: lighter;
+  margin-top: -30px;
 }
 
 .menuPie {

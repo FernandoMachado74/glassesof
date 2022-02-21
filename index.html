@@ -26,41 +26,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-   
+
     <title>GlasesOf - Léelo mejor</title>
 </head>
 <body>
 
 <!-- El navegador comienza acá incluso encabezado -->
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="nav1">
-                <a class="navbar-brand" href="index.html"><img src="images/logo_glassesof.jpg" alt="logo de la empresa" height="50px"></a>
-    
-                <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<header id="principal">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+             <a class="navbar-brand text-white" href="#"> <img src="/images/logo_glassesof.svg" width="30" height="30" class="d-inline-block align-top" alt="/index.html"></a>
+            <a class="textoLogo" href="/index.html" alt="">Glasses OF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"> 
-                        <a href="#Definiciones" class="nav-link">Definiciones</a>
-                    </li>                    
-                    <li class="nav-item"> 
-                        <a href="#Productos" class="nav-link">Productos</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a href="#Testimonios" class="nav-link">Testimonios</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a href="#Nosotros" class="nav-link">Nosotros</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a href="#Contactenos" class="nav-link">Contactenos</a>
-                    </li>
+                    <li class="nav-item active"><a class="nav-link text-white" href="#Definiciones">Definiciones</a></li>                    
+                    <li class="nav-item active"><a class="nav-link text-white" href="#Productos">Productos</a></li>
+                    <li class="nav-item active"><a class="nav-link text-white" href="#Testimonios">Testimonios</a></li>
+                    <li class="nav-item active"><a class="nav-link text-white" href="#Nosotros">Nosotros</a></li>
+                    <li class="nav-item active"><a class="nav-link text-white" href="#Contactenos">Contactenos</a></li>
                 </ul>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <main class="tituloPrincipal"><h1>La mejor forma para leer en pantallas</h1>
     <img class= "animacion" src="images/hand-holding-smartphone-with-blank-screen.jpg" alt="Movil en mano">
@@ -167,37 +156,29 @@
     </section>
 
 <!-- Todo sobre como contactar a empresa y otros datos-->
-    <section id="Contactenos">
-        <h2>Contáctenos</h2>
+<section id="Contactenos">
+    <h2>Contáctenos</h2>
 
-   <div class="contenedor">
-       <div class="row"></div>
-            <div class="col-sm">
-                <form action="" method="post">
-               Nombre y Apellido: <input type="text" required><br>
-               Edad: <select name="Edad" id="">
-              <option value="1">Tengo menos de 30 años</option>
-               <option value="2">Tengo entre 31 y 60 años</option>
-               <option value="3">Tengo más de 61 años</option>
-               </select><br>
-               Género: 
-               <label for="">Femenino</label><input type="radio" name="genero" value="Femenino">
-               <label for="">Masculino</label><input type="radio" name="genero" value="Mascculino">
-               <label for="">Otro</label><input type="radio" name="genero" value="Otro"><br>
-                E-mail: <input type="text" required><br>
-               Telefono: <input type="number" required><br>
-                Deseo recibir información del producto <input type="checkbox"><br>
-                <textarea name="areaDeTexto" id="" cols="30" rows="10" placeholder="Dejános tus comentarios"></textarea><br>
-               <input type="submit" value="Enviar">
-               <input type="reset" value="Enviar">
-               </form> <br>
+<div class="contenedor">
+            <div class="col-sm1">
+                <form class="form">
+                    <h2 class="contact">Contáctenos</h2>
+                    <p type="Nombre:"><input placeholder="Escribe tu nombre."></input></p>
+                    <p type="Email:"><input placeholder="Dejanos tu mail para contacto."></input></p>
+                    <p type="Mensaje:"><input placeholder="¿Qué quieres contarnos?"></input></p>
+                    <button>Enviar mensaje</button>
+                    <div>
+                      <span class="fa fa-phone"></span>054 1234 5678
+                      <span class="fa fa-envelope-o"></span> contact@glassesof.com
+                    </div>
+                  </form>
             </div>
 
-    <div class="col-sm">
-    <h3>¿Cómo llegar?</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.86922835249!2d-58.4322553!3d-34.5860189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe8a347bb55df550c!2sCODER%20HOUSE%20%7C%20Coderhouse%20S.R.L.!5e0!3m2!1ses!2sar!4v1640285532503!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"alt="Mapa ubicación sitio"></iframe>
-    </div></div>
-    </section>
+        <div class="col-sm1">
+        <h3>¿Cómo llegar?</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.86922835249!2d-58.4322553!3d-34.5860189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe8a347bb55df550c!2sCODER%20HOUSE%20%7C%20Coderhouse%20S.R.L.!5e0!3m2!1ses!2sar!4v1640285532503!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"alt="Mapa ubicación sitio"></iframe>
+        </div>
+</div> </section>
 
  <!-- Legales y como contactar a la empresa -->
     <footer>
