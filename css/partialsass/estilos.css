@@ -93,7 +93,7 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 
 .articuloTexto {
   width: 33%;
-  height: 400px;
+  height: auto;
 }
 
 h3.defineTitulos {
@@ -129,10 +129,11 @@ p.defineParrafo {
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 /* Productos */
 #Productos {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #064663), color-stop(20%, white));
-  background-image: linear-gradient(#064663 80%, white 20%);
-  height: 100vh;
+  background-color: #064663;
+  height: auto;
   width: 100%;
+  margin-bottom: 20px;
+  padding: 40px;
 }
 
 .tituloProd {
@@ -143,7 +144,7 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 430px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,11 +168,6 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
   text-align: center;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-}
-
-.container .imgProd {
-  width: 330px;
-  height: 220px;
 }
 
 .container .card h2 {
@@ -261,25 +257,68 @@ p.misionParrafo {
           align-items: center;
 }
 
-/* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
 beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
-/* contactos y otros*/
-.contenedor h3 {
-  margin: 16px;
-  color: darkslategray;
+/* testimonios de usuarios */
+#Testimonios {
+  background-color: #ecebeb;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 20px;
 }
 
-.col.sm1 {
+.testimoniosCaja {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
 }
 
-#Contactenos {
+.tituloTestimonio {
+  padding: 3px;
+  margin-top: 5px;
+  font-display: initial;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+/* contactos y otros*/
+#contactenos.div {
   background-color: #064663;
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+.tituloContacto {
+  color: white;
+  margin: 10px;
+}
+
+.comoLlego {
+  margin-top: 16px;
+  margin-left: 100px;
+  text-align: center;
+  color: darkslategray;
 }
 
 .contenedor {
@@ -291,23 +330,22 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: auto;
   background-color: #ECB365;
-  padding: 40px;
+  padding: 10px;
 }
 
 /* body{background:#59ABE3;margin:0} */
 .form {
   width: 340px;
-  height: auto;
+  height: 450px;
   background: #e6e6e6;
   border-radius: 8px;
   -webkit-box-shadow: 0 0 40px -10px #000;
           box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
+  margin: auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   -webkit-box-sizing: border-box;
@@ -331,7 +369,7 @@ input {
           box-sizing: border-box;
   background: none;
   outline: none;
-  /*     resize:auto; */
+  resize: auto;
   border: 0;
   font-family: 'Montserrat',sans-serif;
   -webkit-transition: all .3s;
@@ -369,22 +407,12 @@ button:hover {
   color: #fff;
 }
 
-div.col-sm1 {
-  content: 'Hi';
-  position: absolute;
-  /*     bottom:-15px;right:-20px; */
-  background: #50505a;
-  color: #fff;
-  width: 320px;
-  padding: 16px 4px 16px 0;
-  border-radius: 6px;
-  font-size: 13px;
-  -webkit-box-shadow: 10px 10px 40px -14px #000;
-          box-shadow: 10px 10px 40px -14px #000;
-}
-
 span {
   margin: 0 5px 0 15px;
+}
+
+.col-sm1 {
+  padding-left: 30px;
 }
 
 /* contactos y otros*/

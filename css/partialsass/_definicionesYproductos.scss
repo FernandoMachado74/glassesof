@@ -21,7 +21,7 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
     margin:0 auto;}
 
 .articuloTexto{width: 33%;
-                height: 400px;}
+                height: auto;}
 
 h3.defineTitulos {font-family: 'Ubuntu', sans-serif;
          font-size: 16px;
@@ -46,4 +46,55 @@ p.defineParrafo{font-family: 'Ubuntu', sans-serif;
     background-color: white;
     width: 100%;
     border: solid 1px gray;
+}
+
+/* colores blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
+beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
+
+/* Productos */
+#Productos{
+  background-color: #064663;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+.tituloProd{
+  color: white;
+  text-align: center;
+}
+
+.container{
+width: 100%;
+max-width: 1200px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+background-color: aliceblue;
+}
+
+.container .card{
+width: 330px;
+height: 430px;
+border-radius: 7px;
+box-shadow: 0 2px 2px black;
+overflow: hidden;
+margin: 20px;
+text-align: center;
+transition: all 0.25s;
+}
+
+.container .card h2{
+font-size: 20px;
+font-weight: 600;
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container p{
+padding: 0 1rem;
+font-size: 16px;
+font-weight: 300;
 }

@@ -4,35 +4,44 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 
 /* contactos y otros*/
 
-.contenedor h3{margin: 16px;
-    color: darkslategray;}
-
-.col.sm1{display: flex;
-width: 100%;}
-
-#Contactenos{
+#contactenos.div{
     background-color: #064663;
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
 }
+
+.tituloContacto{color: white;
+    margin: 10px;
+}
+.comoLlego{margin-top: 16px;
+    margin-left: 100px;
+    text-align: center;
+    color: darkslategray;}
+
 .contenedor{background-color: #041C32;
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
     background-color: #ECB365;
-    padding: 40px;
+    padding: 10px;
     }
 
 /* body{background:#59ABE3;margin:0} */
 .form{width:340px;
-    height:auto;
+    height:450px;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    margin:calc(50vh - 220px) auto;
+    margin:auto;
     padding:20px 30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
@@ -52,7 +61,7 @@ input{width:100%;
     box-sizing:border-box;
     background:none;
     outline:none;
-/*     resize:auto; */
+    resize:auto;
     border:0;
     font-family:'Montserrat',sans-serif;
     transition:all .3s;
@@ -80,16 +89,7 @@ button{float:right;
 button:hover{background:#78788c; color:#fff;
 }
 
-div.col-sm1{content:'Hi';
-    position:absolute;
-/*     bottom:-15px;right:-20px; */
-    background:#50505a;
-    color:#fff;
-    width:320px;
-    padding:16px 4px 16px 0;
-    border-radius:6px;
-    font-size:13px;
-    box-shadow:10px 10px 40px -14px #000;
-}
-
 span{margin:0 5px 0 15px;}
+
+.col-sm1{padding-left: 30px;
+}
