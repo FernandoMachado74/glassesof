@@ -269,20 +269,20 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
 }
 
 .testimoniosCaja {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tituloTestimonio {
   padding: 3px;
   margin-top: 5px;
-  font-display: initial;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -ms-flex-item-align: initial;
+      -ms-grid-row-align: initial;
+      align-self: initial;
 }
 
 /* Paleta de colores === blueDark #041C32 /blue-Dark #04293A / blue --dark#064663
@@ -416,12 +416,37 @@ span {
 }
 
 /* contactos y otros*/
-div h3 {
-  margin: 20px;
+/* .mapa{display: flex;
+justify-content: center;} */
+#Contactenos {
+  background-color: #ECB365;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#Contactenos {
-  background-color: white;
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mapa iframe {
+  margin: 20px;
+  padding: 5px;
 }
 
 /* LEGALES */
@@ -429,6 +454,7 @@ footer {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #041C32), color-stop(80%, #064663));
   background-image: linear-gradient(#041C32 20%, #064663 80%);
   font: white;
+  padding-bottom: 15px;
 }
 
 footer ul li a {
@@ -443,17 +469,26 @@ footer ul li a {
   color: white;
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
-}
-
-.seguinosEn.a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  font-size: 16px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 3px;
+  margin: 10px;
+}
+
+.logosRRSS a {
+  margin: 3px;
+  padding: 3px;
+}
+
+.logosRRSS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Specs textos legales generalidades */

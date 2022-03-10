@@ -1,14 +1,29 @@
 /* contactos y otros*/
 
-div h3{margin:20px;}
+/* .mapa{display: flex;
+justify-content: center;} */
 
 #Contactenos{
-    background-color: white;
+    background-color: #ECB365;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
+
+.contenedor{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.mapa iframe {margin: 20px;
+             padding: 5px;}
 
 /* LEGALES */
 footer{background-image: linear-gradient(#041C32 20%, #064663 80%);
-    font: white;}
+    font: white;
+    padding-bottom: 15px;}
 
 footer ul li a {color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -19,12 +34,20 @@ footer ul li a {color: white;
 .seguinosEn{color: white;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    }
-.seguinosEn.a{
-    display: flex;
-    align-content:space-between;
+    font-size: 16px;
     align-items: center;
+    padding: 3px;
+    margin: 10px;
+    }
+
+.logosRRSS a {margin: 3px;
+    padding: 3px;
 }
+
+.logosRRSS{
+    display: flex;
+    justify-content: center;
+    }
 
 /* Specs textos legales generalidades */
 .tituloUp{

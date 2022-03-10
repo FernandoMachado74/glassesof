@@ -71,15 +71,15 @@ beige #ECB365 / white #FFFFFF/grey ##EEEEEE*/
     height: auto;
     margin-top: 10px; 
     padding: 20px;
+ 
 }
 
 .testimoniosCaja{
-    align-items: center;
-    display: flex;
+     display: flex;
+    justify-content: center;
 }
 
 .tituloTestimonio{padding: 3px;
     margin-top: 5px;
-    font-display:initial;
-    align-content: center;
+    align-self: initial;
 }
